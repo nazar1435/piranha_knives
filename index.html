@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piranha knives</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__section">
+          <div class="header__contact">
+            <div>
+              <p class="location__contact">Ukraine, Kyiv</p>
+            </div>
+
+            <div class="social__networking">
+              <a class="social__networking-link" href="#">
+                <i class="fa fa-youtube-play"></i>
+              </a>
+              <i class="fa fa-circle"></i>
+              <a class="social__networking-link" href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <i class="fa fa-circle"></i>
+              <a class="social__networking-link" href="#">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu">
+          <div class="logo__wrapper">
+            <a href="#" class="logo__img"></a>
+            <div class="logo__content">
+              <span class="logo__text">Knives workshop</span>
+            </div>
+          </div>
+        </div>
+
+        <input type="checkbox" id="check__menu" />
+        <label for="check__menu">
+          <div class="header__burger">
+            <span> </span>
+          </div>
+        </label>
+
+        <ul class="nav">
+          <li class="nav__item">
+            <a class="nav__link" href="#">EDC knives</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Hunt knives</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Tactical knives </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#"> About company </a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#"> Contact </a>
+          </li>
+        </ul>
+      </header>
+
+      <div class="section__top">
+        <article class="article__top">
+          <div class="top__banner">
+            <div class="banner__img">
+              <h1 class="primory__banner-titel">New design</h1>
+              <p class="banner__name">Nyx</p>
+              <a class="top__banner-link" href="#">
+                <h2 class="secondary__banner-titel">see more...</h2>
+              </a>
+
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <section class="section__gallery">
+        <h2>Результаты наших учеников</h2>
+
+        <article class="article__slider">
+          <div class="slider">
+            <div class="slider__item">
+              <div class="content__box">
+                <img src="img/product/vamp/_DSC8775.JPG" alt="">
+              </div> 
+            </div>
+
+            <div class="slider__item">
+              <div class="content__box">
+                <img src="img/product/vamp/_DSC8775.JPG" alt="">
+              </div> 
+            </div>
+
+            <div class="slider__item">
+              <div class="content__box">
+                <img src="img/product/vamp/_DSC8775.JPG" alt="">
+              </div> 
+            </div>
+            <div class="slider__item">
+              <div class="content__box">
+                <img src="img/product/vamp/_DSC8775.JPG" alt="">
+              </div> 
+            </div>
+            <div class="slider__item">
+              <div class="content__box">
+                <img src="img/product/vamp/_DSC8775.JPG" alt="">
+              </div> 
+            </div>
+
+            <!-- Кнопки-стрелочки -->
+            <a class="previous" onclick="previousSlide()">
+              <i class="fa fa-angle-left fa-3x"></i>
+            </a>
+            <a class="next" onclick="nextSlide()">
+              <i class="fa fa-angle-right fa-3x"></i>
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <!-- <section class="section__person" id="person">
+      <div class="section__item">
+        <div class="slider">
+          <div class="slider__item">
+            <div class="content__box">
+              <img class="d-block img__mobile" src="img/employees/aleksandr_mobile.jpg" alt="..." />
+              <img class="d-block tablet__sd" src="img/employees/aleksandr_tabletSD.jpg" alt="..." />
+              <img class="d-block tablet__hd" src="img/employees/aleksandr_tabletHD.jpg" alt="..." />
+              <img class="d-block desktop__hd" src="img/employees/Aleksandr_desktopHD.jpg" alt="..." />
+              <img class="d-block desktop__sd" src="img/employees/Aleksandr_desktopSD.jpg" alt="..." />
+
+              <div class="box__person">
+                <h5 class="chapter">
+                  <a href="#">
+                    команда1
+                    <i class="fa fa-chevron-right"></i>
+                  </a>
+                </h5>
+                <p class="person__desription">
+                  Ми звикли брати на себе відповідальність та завжди
+                  гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли
+                  більшість безсилі.
+                </p>
+                <h6 class="person__name">Олександр Олександровський</h6>
+                <p class="person__specifics">Керуючий партнер</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="content__box">
+              <img class="d-block img__mobile" src="img/employees/aleksandr_mobile.jpg" alt="..." />
+              <img class="d-block tablet__sd" src="img/employees/aleksandr_tabletSD.jpg" alt="..." />
+              <img class="d-block tablet__hd" src="img/employees/aleksandr_tabletHD.jpg" alt="..." />
+              <img class="d-block desktop__hd" src="img/employees/Aleksandr_desktopHD.jpg" alt="..." />
+              <img class="d-block desktop__sd" src="img/employees/Aleksandr_desktopSD.jpg" alt="..." />
+
+              <div class="box__person">
+                <h5 class="chapter">
+                  <a href="#">
+                    команда2
+                    <i class="fa fa-chevron-right"></i>
+                  </a>
+                </h5>
+                <p class="person__desription">
+                  Ми звикли брати на себе відповідальність та завжди
+                  гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли
+                  більшість безсилі.
+                </p>
+                <h6 class="person__name">Олександр Олександровський</h6>
+                <p class="person__specifics">Керуючий партнер</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="content__box">
+              <img class="d-block img__mobile" src="img/employees/aleksandr_mobile.jpg" alt="..." />
+              <img class="d-block tablet__sd" src="img/employees/aleksandr_tabletSD.jpg" alt="..." />
+              <img class="d-block tablet__hd" src="img/employees/aleksandr_tabletHD.jpg" alt="..." />
+              <img class="d-block desktop__hd" src="img/employees/Aleksandr_desktopHD.jpg" alt="..." />
+              <img class="d-block desktop__sd" src="img/employees/Aleksandr_desktopSD.jpg" alt="..." />
+
+              <div class="box__person">
+                <h5 class="chapter">
+                  <a href="#">
+                    команда3
+                    <i class="fa fa-chevron-right"></i>
+                  </a>
+                </h5>
+                <p class="person__desription">
+                  Ми звикли брати на себе відповідальність та завжди
+                  гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли
+                  більшість безсилі.
+                </p>
+                <h6 class="person__name">Олександр Олександровський</h6>
+                <p class="person__specifics">Керуючий партнер</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="wrapper__indicator">
+            <a class="indicator" onclick="indicatorOne()">
+              <button></button>
+              
+            </a>
+            <a class="indicator" onclick="indicatorTwo()">
+              <button></button>
+            </a>
+            <a class="indicator" onclick="indicatorThree()">
+              <button></button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+      <!-- <section class="clients">
+      <h2 class="clients__titel">They already trust us</h2>
+      <div class="img__wrapper">
+        <div class="color__block hilel">
+          <img src="img/client_logo/hillel_logo.svg" alt="" />
+        </div>
+        <div class="color__block wanna-biz">
+          <img src="img/client_logo/wanna_biz.svg" alt="" />
+        </div>
+        <div class="color__block tapgerine">
+          <img src="img/client_logo/tapgerine.svg" alt="" />
+        </div>
+        <div class="color__block look">
+          <img src="img/client_logo/3d_look.svg" alt="" />
+        </div>
+        <div class="color__block orange">
+          <img src="img/client_logo/orange_gear.svg" alt="" />
+        </div>
+        <div class="color__block adtelige">
+          <img src="img/client_logo/adtelige.svg" alt="" />
+        </div>
+        <div class="color__block clicky">
+          <img src="img/client_logo/cliccky.svg" alt="" />
+        </div>
+        <div class="color__block eco-lease">
+          <img src="img/client_logo/eco_lease.svg" alt="" />
+        </div>
+        <div class="color__block infra-tek">
+          <img src="img/client_logo/infra_tek.svg" alt="" />
+        </div>
+        <div class="color__block city-park">
+          <img src="img/client_logo/city_park.svg" alt="" />
+        </div>
+        <div class="color__block art-print">
+          <img src="img/client_logo/art_print.svg" alt="" />
+        </div>
+        <div class="color__block ultimate-card">
+          <img src="img/client_logo/ultimate_card.svg" alt="" />
+        </div>
+      </div>
+    </section> -->
+
+      <!-- <section class="section__publication">
+      <a href="#">
+        Publications
+        <i class="fa fa-chevron-right"></i>
+      </a>
+      <h2>We have something to tell</h2>
+      <div class="publication__box">
+        <article class="publication">
+          <div class="publication__img firs-publication"></div>
+          <h3>Equity associate</h3>
+          <h4>April 22</h4>
+          <p>
+            I'm a jun on projects. I am a co-owner of a law firm. How it
+            happened. Before entering my parents told me that if I…
+          </p>
+        </article>
+        <article class="publication">
+          <div class="publication__img second-publication"></div>
+          <h3>
+            Penalty for the Good Corporation: what will happen to Google and
+            others for violating the GDPR
+          </h3>
+          <h4>September 29</h4>
+          <p>
+            And why the recovery of 50 million euros could be a fateful
+            precedent According to Mind.ua January 21 National Commission for
+            Data Protection.
+          </p>
+        </article>
+        <article class="publication">
+          <div class="publication__img third-publication"></div>
+          <h3>Millennial Testament</h3>
+          <h4>August 19</h4>
+          <p>
+            What and how modern vloggers, opinion leaders and
+            crypto-millionaires will inherit A typical legacy of the Ukrainian
+            generation X looks like this: an apartment in…
+          </p>
+        </article>
+      </div>
+    </section> -->
+      <div class="footer__wrapper">
+        <footer class="footer">
+          <p class="location__contact">Kyiv, Mechnikova str, 14/1</p>
+          <i class="fa fa-circle"></i>
+          <a class="map__link" href="#"> On map </a>
+          <a class="social__networking" href="https://www.facebook.com/">
+            <!-- <img src="img/decoration_icon/facebook_icon.svg" alt="" /> -->
+          </a>
+          <i class="fa fa-circle"></i>
+          <p class="contact__number">0800 211 927</p>
+          <i class="fa fa-circle"></i>
+          <p class="contact__mail">contact@forstudy.space</p>
+          <span class="copyright"> © 2021 HLEGAL Law company, LLC </span>
+        </footer>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

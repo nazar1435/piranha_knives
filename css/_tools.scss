@@ -1,0 +1,21 @@
+@mixin flex($flow, $justify) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $justify;
+}
+@mixin primaryGradientColor  {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: $primaryGradient;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    
+}
+
+/////////////////////////////////////////////
+
+$size: 100%;
+$colorFirst: #050505;
+$colorTwo: #EAEAEA;
+$colorDetails: #d22517;
+$primaryGradient: linear-gradient(50deg, #62686D 0%, #9B6B59 100%);

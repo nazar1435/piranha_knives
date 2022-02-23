@@ -1,0 +1,276 @@
+
+///////////////////////////////////////////////////////// footer ////////////////////////////////////////////////
+@media screen and (min-width: 360px) {
+    .wrapper,
+    .services__wrapper {
+        width: $size;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+
+        .footer__wrapper {
+            background: #F5F5FA;
+            width: 100%;
+
+            .footer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80%;
+                margin-left: 10%;
+                padding-top: 30px;
+                border-top: 2px solid #E6E6F0;
+                padding-bottom: 20px;
+
+
+                .fa-circle {
+                    display: none;
+                    font-size: 0.5rem;
+                }
+
+                .location__contact {
+                    font-weight: normal;
+                    font-size: 1rem;
+                    line-height: 1.25rem;
+                }
+
+                .map__link {
+                    margin-top: 10px;
+                    font-weight: bold;
+                    font-size: 0.75rem;
+                    line-height: 0.9375rem;
+                    letter-spacing: 0.0625rem;
+                    text-transform: uppercase;
+                    color: #24A3FF;
+                }
+
+                .social__networking {
+                    margin-top: 20px;
+                }
+
+                .contact__number {
+                    margin-top: 10px;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    line-height: 1.25rem;
+                    color: #46466E;
+                }
+
+                .contact__mail {
+                    margin-top: 10px;
+                    font-weight: bold;
+                    font-size: 1rem;
+                    line-height: 1.25rem;
+                    color: #24A3FF;
+                }
+
+                .copyright {
+                    margin-top: 30px;
+                    font-weight: normal;
+                    font-size: 1rem;
+                    line-height: 1.25rem;
+                    color: #B3B3BA;
+                }
+
+            }
+        }
+
+
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper,
+    .services__wrapper {
+
+        .footer__wrapper {
+            background: #F5F5FA;
+            width: 100%;
+
+            .footer {
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding-top: 10px;
+                width: 85%;
+                margin-left: 7.5%;
+
+                .location__contact,
+                .map__link,
+                .copyright,
+                .fa-circle:first-of-type {
+                    margin-top: 17px;
+                }
+
+                .location__contact {
+                    width: 30.5%;
+                    order: -2;
+
+                }
+
+                .map__link {
+                    order: -2;
+
+                }
+
+                .copyright {
+                    order: -1;
+                    margin-left: 14%;
+                }
+
+                .fa-circle {
+                    margin: 0;
+                    display: inline;
+                    font-size: 0.5rem;
+                    color: #B3B3BA;
+                    margin-right: 1.5%;
+                    margin-left: 1.5%;
+
+                    &:first-of-type {
+                        order: -2;
+                    }
+
+                }
+
+                .social__networking,
+                .contact__number,
+                .contact__mail,
+                .fa-circle:nth-of-type(2),
+                .fa-circle:nth-of-type(3) {
+                    margin-top: 22px;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper,
+    .services__wrapper {
+        .footer__wrapper {
+            .footer {
+
+                padding-top: 5px;
+                width: 88%;
+                margin-left: 6%;
+
+                .location__contact,
+                .map__link,
+                .copyright,
+                .fa-circle:first-of-type {
+                    margin-top: 20px;
+                }
+
+                .location__contact {
+                    width: 22%;
+
+                }
+
+                .map__link {
+                    order: -2;
+
+                }
+
+                .copyright {
+                    margin-left: 38%;
+                }
+
+                .fa-circle {
+
+                    margin-right: 0.9%;
+                    margin-left: 0.9%;
+
+
+
+                }
+
+
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .wrapper,
+    .services__wrapper {
+
+        .footer__wrapper {
+            .footer {
+
+                padding-top: 5px;
+                width: 92%;
+                margin-left: 4%;
+
+                .location__contact,
+                .map__link,
+                .copyright,
+                .fa-circle:first-of-type {
+                    margin-top: 22px;
+                }
+
+                .location__contact {
+                    width: auto;
+
+                }
+
+                .map__link {
+                    order: -2;
+
+                }
+
+                .copyright {
+                    margin-left: 57.5%;
+                }
+
+                .fa-circle {
+
+                    margin-right: 0.9%;
+                    margin-left: 0.9%;
+
+
+
+                }
+
+
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .wrapper,
+    .services__wrapper {
+
+        .footer__wrapper {
+            .footer {
+
+                padding-top: 5px;
+                width: 83%;
+                margin-left: 8.5%;
+
+
+
+                .copyright {
+                    margin-left: 64%;
+
+                }
+
+                .fa-circle {
+
+                    margin-right: 0.9%;
+                    margin-left: 0.9%;
+
+
+
+                }
+
+
+            }
+        }
+
+    }
+}
